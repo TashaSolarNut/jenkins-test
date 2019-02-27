@@ -9,6 +9,7 @@
 
 	<properties>
 		<browser>firefox</browser>
+		<webdriver.chrome.driver>C:\opt\src\Testing\java-cucumber-example\bin\chromedriver.exe</webdriver.chrome.driver>
 	</properties>
 
 	<dependencies>
