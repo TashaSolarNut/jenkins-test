@@ -16,9 +16,9 @@ public class SimpleTest {
     //https://code.google.com/p/selenium/wiki/GettingStarted
     
     WebDriver driver = Browser.launch();
-    driver.get("https://www.google.com");
+    driver.get("https://yandex.ru");
     WebElement element = driver.findElement(By.name("q"));
-    element.sendKeys("Cheese!");
+    element.sendKeys("Kaspersky");
     element.submit();
     System.out.println("Page title is: " + driver.getTitle());
     driver.quit();
