@@ -17,7 +17,7 @@ public class SimpleTest {
     
     WebDriver driver = Browser.launch();
     driver.get("https://yandex.ru");
-    WebElement element = driver.findElement(By.name("q"));
+    WebElement element = driver.findElement(By.name("text"));
     element.sendKeys("Kaspersky");
     element.submit();
     System.out.println("Page title is: " + driver.getTitle());
